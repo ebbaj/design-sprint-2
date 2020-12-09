@@ -5,8 +5,10 @@
   scroll-behavior: smooth;
 }
 
+/*--- TEMPORARY IMAGE SIZING ---*/
 .card-image,
-.user-image {
+.user-image,
+.about-image {
   height: 100px;
   width: auto;
   object-fit: cover;
