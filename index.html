@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
     <title>Home</title>
   </head>
   <body>
     <section class="grid-wrapper">
       <header>
-        <h3 class="logo">Experience.</h3>
+        <h3 class="logo">Exploria.</h3>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -49,7 +50,9 @@
             <h3>User stories</h3>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit.
+              aut fugit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+              aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+              ratione voluptatem sequi nesciunt.
             </p>
             <a href="#section-five">
               <button class="secondary-button">Read more</button>
@@ -83,7 +86,7 @@
         <!-- SECTION THREE -->
         <section id="section-three">
           <h2>Popular Experience Packages</h2>
-          <div class="card">
+          <div class="card1">
             <img
               class="card-image"
               src="/images/hiking.jpg"
@@ -97,7 +100,7 @@
               <a class="link" href="#">Read more.</a>
             </p>
           </div>
-          <div class="card">
+          <div class="card2">
             <img
               class="card-image"
               src="/images/safari.jpg"
@@ -107,12 +110,12 @@
             <p>
               Many of our users choose to get the experience of a lifetime with
               our safari packages. Choose between a classic savannah safari in
-              Africa, a gorilla safari in Rwanda, or why not go on a whale
+              South Africa, a gorilla safari in Rwanda, or why not go on a whale
               safari in Norway? The safari variations are endless.
               <a class="link" href="#">Read more.</a>
             </p>
           </div>
-          <div class="card">
+          <div class="card3">
             <img
               class="card-image"
               src="/images/beach.jpg"
@@ -122,11 +125,12 @@
             <p>
               Who doesn’t like spending their holiday with sand between their
               toes and a drink in hand while listening to the waves of a
-              chrystal blue ocean? Our beach & sun packages are some of our most
-              popular. <a class="link" href="#">Read more.</a>
+              chrystal blue ocean? Or taking a break from relaxing with some
+              windsurfing or jetskiing? Our beach & sun packages are some of our
+              most popular. <a class="link" href="#">Read more.</a>
             </p>
           </div>
-          <div class="card">
+          <div class="card4">
             <img
               class="card-image"
               src="/images/wine.jpg"
@@ -140,12 +144,14 @@
               <a class="link" href="#">Read more.</a>
             </p>
           </div>
-          <a href="#">See all of our experience packages</a>
+          <a class="bottom-link" href="#"
+            >Discover more of our experience packages</a
+          >
         </section>
 
         <!-- SECTION FOUR -->
         <section id="section-four">
-          <div class="info-div">
+          <div class="inspo-div">
             <h2>Travel Inspiration</h2>
             <p>
               The Beauty of --- is its flexibility. You’re not limited to
@@ -158,15 +164,15 @@
             </p>
             <br />
             <p>
-              See all of our experiences to get some inspiration for your next
-              customized journey. <a class="link" href="#">Read more.</a>
+              Explore more of our experiences to get some inspiration for your
+              next customized adventure. <a class="link" href="#">Read more.</a>
             </p>
           </div>
         </section>
 
         <!-- SECTION FIVE -->
         <section id="section-five">
-          <div class="info-div">
+          <div class="user-div">
             <h2>User Stories</h2>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
@@ -179,8 +185,10 @@
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est.
             </p>
-            <br />
-            <a class="link" href="#">Read user stories.</a>
+            <br /><br />
+            <a class="link" href="#">Read user stories</a>
+          </div>
+          <div class="user-img-wrapper">
             <img
               class="user-image"
               src="/images/horse.jpg"
@@ -192,19 +200,21 @@
 
       <!-- FOOTER -->
       <footer class="main-footer">
-        <div class="footer-div">
+        <div class="footer-div-1">
           <h3>About</h3>
-          <p>Read more about us <a class="link" href="#">here.</a></p>
+          <p>Read more about us <a href="about.html">here.</a></p>
         </div>
-        <div class="footer-div">
+        <div class="footer-div-2">
           <h3>Contact</h3>
           <p>
             Reach out to us
             <a href="mailto: ebba.jonsson@hyperisland.se">example@mail.com</a>
           </p>
         </div>
-        <input type="text" placeholder="Search experience" />
-        <button class="input-button">Search</button>
+        <div class="footer-input">
+          <input type="text" placeholder="Search experience" />
+          <button class="input-button"><i class="fas fa-search"></i></button>
+        </div>
       </footer>
     </section>
   </body>
