@@ -63,6 +63,10 @@ header {
   align-self: center;
 }
 
+.logo span {
+  color: var(--accent-color);
+}
+
 nav {
   grid-column: 3/4;
   justify-self: end;
@@ -448,7 +452,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 5% 1fr 1fr 2fr 5%;
   grid-template-rows: 1fr;
-  height: 30vh;
+  height: 20vh;
 }
 
 .footer-div-1 {
@@ -533,7 +537,7 @@ nav a:hover {
 .about-header {
   display: grid;
   grid-template-columns: 5% 1fr 1fr 5%;
-  background: var(--header-background);
+  background: var(--dark-text-color);
   color: var(--white);
   z-index: 10;
   position: absolute;
