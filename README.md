@@ -1,3 +1,5 @@
-# design-sprint-2
+# Design Sprint 2 - DoDO Travel
 
-https://ebbaj.github.io/design-sprint-2/
+Hyper Island - Design for the user module - Brief 2
+
+[GoDo Travel](https://ebbaj.github.io/design-sprint-2/)
